@@ -1,13 +1,18 @@
+html{
+    background-image: url("media/Background.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #878865;
     text-align: left;
-    background-image: url("media/Background.jpg");
-    background-color: black;
 }
 .title{
     font-weight: bold;
-    color: rgb(87, 0, 0);
+    color: rgb(131, 1, 1);
 }
 a{
     color: burlywood;
