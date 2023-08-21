@@ -1,4 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #c9ca98;
+    color: #878865;
+    text-align: left;
+    background-image: url("media/Background.jpg");
+    background-color: black;
+}
+.title{
+    font-weight: bold;
+    color: rgb(87, 0, 0);
+}
+a{
+    color: burlywood;
 }
