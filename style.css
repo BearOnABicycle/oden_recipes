@@ -1,19 +1,40 @@
 html{
-    background-image: url("media/Background.jpg");
     background-color: black;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-
-}
-body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #878865;
+    color: #c1c2ae;
     text-align: left;
 }
-.title{
+h1{
     font-weight: bold;
     color: rgb(131, 1, 1);
+    text-align: center;
 }
-a{
-    color: burlywood;
+header{
+    background-color: rgba(128,128,128, 0.171);
+    margin-left: 11%;
+}
+main{
+    margin-left: 11%;
+}
+a.nav{
+    color: cadetblue;
+    text-decoration: none;
+}
+a.nav:hover{
+    color: rgb(185, 223, 224);
+    text-decoration: none;
+}
+ul.nav{
+    background-color: rgba(128, 128, 128, 0.171);
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    position:fixed;
+    overflow: auto;
 }
